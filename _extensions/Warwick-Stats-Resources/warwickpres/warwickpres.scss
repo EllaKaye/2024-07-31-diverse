@@ -67,6 +67,10 @@ $callout-color-warning: $ruby_bright;
   color: $primary;
 }
 
+.gray, .grey {
+  color: $gray;
+}
+
 // code
 pre.sourceCode {
   border-radius: 0;
