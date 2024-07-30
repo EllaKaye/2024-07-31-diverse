@@ -2,7 +2,7 @@
 title: A conversation about EDIA in the RSE community
 subtitle: Reflections on successes and challenges
 author: 
-  - name: Malvika Sharan and Ella Kaye
+  - name: Ella Kaye (@EllaKaye) and Malvika Sharan (@malvikasharan)
   - name: diveRSE
 date: 2024-07-31
 date-format: long
@@ -14,11 +14,28 @@ format:
 ## Overview
 
 - Introductions / positionality
-- Malvika and Ella conversation
-- Questions from the audience / further discussion
+- Malvika and Ella in conversation
+- Open Q&A and discussion with participants
 
 ## Malvika
 
+- Researcher, **Community Facilitator**, The Alan Turing Institute
+- Lead of **Research Community Management team** - *connecting projects, teams, software, communities*
+- **The Turing Way** - *a global community-led project on data science practices, advocacy and culture change*
+- **OLS** (formerly Open Life Science) - *a global community of learners and practitioners of open science*
+- Embedded in open source/science communities, building on RSE movement!
+
+## Positionality (Malvika)
+
+**under-represented in RSE / minority positions**
+
+- Asian, woman
+- Not really RSE - but RSE adjacent!
+- Advocate of open science and community management in research - often met with skepticism and dismissal
+
+**over-represented / privilege**
+
+- cisgender, financial stability, access to privileged groups
 
 ## Ella
 
@@ -31,7 +48,7 @@ format:
 
 **under-represented in RSE / minority positions**
 
-- female, gay
+- woman, gay
 
 **over-represented / privilege**
 
@@ -48,6 +65,13 @@ format:
 - What are the links between EDIA and justice?
 - [Positive examples of groups and initiatives where EDIA was improved]{.gray}
 :::
+
+## Resources
+
+- RainbowR: [rainbowr.org](https://rainbowr.org/)
+- *The Turing Way*: [book.the-turing-way.org](https://book.the-turing-way.org/)
+- OLS: [we-are-ols.org](https://we-are-ols.org/)
+- Resource list: [bit.ly/2024-07-31-diverse-session](https://annuel2.framapad.org/p/2024-07-31-diverse-session)
 
 ```{=html}
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
