@@ -22,6 +22,21 @@ format:
 
 ## Ella
 
+- RSE, Warwick, "Sustainability and EDI in the R Project" (with Heather Turner)
+- rainbowR; SSI inclusive
+
+. . .
+
+### Positionality
+
+**under-represented in RSE / minority positions**
+
+- female, gay
+
+**over-represented / privilege**
+
+- White, cisgender, global north, financial stability, elite education
+
 ## Discussion questions/themes
 
 ::: {.incremental}
