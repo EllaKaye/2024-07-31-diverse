@@ -8,9 +8,9 @@
 <link href="2024-07-31-diverse_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="2024-07-31-diverse_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="2024-07-31-diverse_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.549">
+  <meta name="generator" content="quarto-1.3.433">
 
-  <meta name="author" content="Malvika Sharan and Ella Kaye">
+  <meta name="author" content="Ella Kaye (@EllaKaye) and Malvika Sharan (@malvikasharan)">
   <meta name="author" content="diveRSE">
   <meta name="dcterms.date" content="2024-07-31">
   <title>A conversation about EDIA in the RSE community</title>
@@ -158,8 +158,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -334,7 +333,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Malvika Sharan and Ella Kaye 
+Ella Kaye (<span class="citation" data-cites="EllaKaye">@EllaKaye</span>) and Malvika Sharan (<span class="citation" data-cites="malvikasharan">@malvikasharan</span>) 
 </div>
 </div>
 <div class="quarto-title-author">
@@ -350,12 +349,32 @@ diveRSE
 <h2>Overview</h2>
 <ul>
 <li>Introductions / positionality</li>
-<li>Malvika and Ella conversation</li>
-<li>Questions from the audience / further discussion</li>
+<li>Malvika and Ella in conversation</li>
+<li>Open Q&amp;A and discussion with participants</li>
 </ul>
 </section>
 <section id="malvika" class="slide level2">
 <h2>Malvika</h2>
+<ul>
+<li>Researcher, <strong>Community Facilitator</strong>, The Alan Turing Institute</li>
+<li>Lead of <strong>Research Community Management team</strong> - <em>connecting projects, teams, software, communities</em></li>
+<li><strong>The Turing Way</strong> - <em>a global community-led project on data science practices, advocacy and culture change</em></li>
+<li><strong>OLS</strong> (formerly Open Life Science) - <em>a global community of learners and practitioners of open science</em></li>
+<li>Embedded in open source/science communities, building on RSE movement!</li>
+</ul>
+</section>
+<section id="positionality-malvika" class="slide level2">
+<h2>Positionality (Malvika)</h2>
+<p><strong>under-represented in RSE / minority positions</strong></p>
+<ul>
+<li>Asian, woman</li>
+<li>Not really RSE - but RSE adjacent!</li>
+<li>Advocate of open science and community management in research - often met with skepticism and dismissal</li>
+</ul>
+<p><strong>over-represented / privilege</strong></p>
+<ul>
+<li>cisgender, financial stability, access to privileged groups</li>
+</ul>
 </section>
 <section id="ella" class="slide level2">
 <h2>Ella</h2>
@@ -367,7 +386,7 @@ diveRSE
 <h3 id="positionality">Positionality</h3>
 <p><strong>under-represented in RSE / minority positions</strong></p>
 <ul>
-<li>female, gay</li>
+<li>woman, gay</li>
 </ul>
 <p><strong>over-represented / privilege</strong></p>
 <ul>
@@ -387,6 +406,15 @@ diveRSE
 <li class="fragment"><span class="gray">Positive examples of groups and initiatives where EDIA was improved</span></li>
 </ul>
 </div>
+</section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+<ul>
+<li>RainbowR: <a href="https://rainbowr.org/">rainbowr.org</a></li>
+<li><em>The Turing Way</em>: <a href="https://book.the-turing-way.org/">book.the-turing-way.org</a></li>
+<li>OLS: <a href="https://we-are-ols.org/">we-are-ols.org</a></li>
+<li>Resource list: <a href="https://annuel2.framapad.org/p/2024-07-31-diverse-session">bit.ly/2024-07-31-diverse-session</a></li>
+</ul>
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
 <!-- requires Quarto v1.3 -->
 <!-- tint80 for border, tint20 for title -->
@@ -433,10 +461,8 @@ div.callout-caution.callout-style-default .callout-title {
   background-color: #F8D5BC !important;
 }
 </style>
-<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
-</div>
 </div>
 </section>
     </div>
@@ -465,6 +491,7 @@ div.callout-caution.callout-style-default .callout-title {
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': true,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -725,27 +752,10 @@ div.callout-caution.callout-style-default .callout-title {
         // clear code selection
         e.clearSelection();
       });
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -755,17 +765,8 @@ div.callout-caution.callout-style-default .callout-title {
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -819,6 +820,20 @@ div.callout-caution.callout-style-default .callout-title {
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     
