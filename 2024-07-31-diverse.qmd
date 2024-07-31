@@ -2,7 +2,7 @@
 title: A conversation about EDIA in the RSE community
 subtitle: Reflections on successes and challenges
 author: 
-  - name: Ella Kaye (@EllaKaye) and Malvika Sharan (@malvikasharan)
+  - name: Ella Kaye (@ellakaye) and Malvika Sharan (@malvikasharan)
   - name: diveRSE
 date: 2024-07-31
 date-format: long
@@ -39,12 +39,13 @@ format:
 
 ## Ella
 
-- RSE, Warwick, "Sustainability and EDI in the R Project" (with Heather Turner)
-- rainbowR; SSI inclusive
+- Research Software Engineer at University of Warwick
+- Sustainability and EDI in the R Project (with Heather Turner)
+  - *fostering a larger, more diverse community of contributors to base R*
+- rainbowR
+- SSI inclusive
 
-. . .
-
-### Positionality
+## Positionality (Ella)
 
 **under-represented in RSE / minority positions**
 
@@ -68,10 +69,11 @@ format:
 
 ## Resources
 
-- RainbowR: [rainbowr.org](https://rainbowr.org/)
+- rainbowR: [rainbowr.org](https://rainbowr.org/)
 - *The Turing Way*: [book.the-turing-way.org](https://book.the-turing-way.org/)
 - OLS: [we-are-ols.org](https://we-are-ols.org/)
 - Resource list: [bit.ly/2024-07-31-diverse-session](https://annuel2.framapad.org/p/2024-07-31-diverse-session)
+- These slides: [ellakaye.github.io/2024-07-31-diverse](https://ellakaye.github.io/2024-07-31-diverse)
 
 ```{=html}
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
